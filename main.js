@@ -1,9 +1,11 @@
-'use-strict'
+
 const {createApp} = Vue
-createApp({
+
+app=createApp({
     data() {
         return{
-            message: 'ciao a tutti!'
+            message: 'ciao a tutti!',
+            image: 'https://cdn-media-1.freecodecamp.org/ghost/2019/03/vueart.png',
         }
     }
 }).mount('#app')
